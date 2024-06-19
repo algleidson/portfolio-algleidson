@@ -1,19 +1,25 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
     <head>
-        <title>Portfólio Web</title>
+        <title>Portfólio Web - Algleidson</title>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     </head>
     <body>
         <nav>
             <div class="logo">Algleidson</div>
             <ul class="nav-links">
-
+                <li><a href="#hero">Início</a></li>
+                <li><a href="#about">Sobre Mim</a></li>
+                <li><a href="#services">Serviços</a></li>
                 <li><a href="#projects">Projetos</a></li>
-                <li><a href="#content">Contato</a></li>
+                <li><a href="#skills">Habilidades</a></li>
+                <li><a href="#testimonials">Testemunhos</a></li>
+                <li><a href="#contact">Contato</a></li>
             </ul>
-        </nav>>
+        </nav>
 
         <section id="hero">
             <div class="hero-content">
@@ -25,7 +31,25 @@
 
         <section id="about">
             <h2>Sobre Mim</h2>
-            <p>Olá, sou desenvolvedor Web com certificação em banco de dados SQL Server e Oracle fornecido pela Udemy</p>
+            <p class="text-al">Olá, sou Algleidson, desenvolvedor Web com certificação em banco de dados SQL Server e Oracle fornecido pela Udemy. Tenho experiência em criação de websites modernos e responsivos, utilizando as mais recentes tecnologias de desenvolvimento web.</p>
+        </section>
+
+        <section id="services">
+            <h2>Serviços</h2>
+            <div class="services-container">
+                <div class="service-card">
+                    <h3>Desenvolvimento Web</h3>
+                    <p class="test">Criação de websites responsivos e modernos utilizando HTML, CSS, JavaScript e frameworks populares.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Banco de Dados</h3>
+                    <p class="test">Design e implementação de bancos de dados eficientes e seguros com SQL Server e Oracle.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Consultoria</h3>
+                    <p class="test">Consultoria em melhores práticas de desenvolvimento e otimização de performance para projetos web.</p>
+                </div>
+            </div>
         </section>
 
         <section id="projects">
@@ -33,18 +57,67 @@
             <div class="projects-container">
                 <div class="project-card">
                     <h3>Projeto 1</h3>
-                    <p>Descrição do Projeto 1</p>
+                    <p>Descrição do Projeto 1. Este projeto foi desenvolvido utilizando HTML, CSS e JavaScript, com foco em responsividade e performance.</p>
                 </div>
                 <div class="project-card">
                     <h3>Projeto 2</h3>
-                    <p>Descrição do Projeto 2</p>
+                    <p>Descrição do Projeto 2. Um aplicativo web completo utilizando React e Node.js, integrando diversas APIs para funcionalidades avançadas.</p>
+                </div>
+                <div class="project-card">
+                    <h3>Projeto 3</h3>
+                    <p>Descrição do Projeto 3. Um sistema de gestão de conteúdo desenvolvido com PHP e MySQL, com painel administrativo personalizado.</p>
                 </div>
             </div>
         </section>
 
-        <section id="content">
+        <section id="skills">
+            <h2>Habilidades</h2>
+            <div class="skills-container">
+                <div class="skill-bar">
+                    <p>HTML</p>
+                    <div class="progress-bar"><span style="width: 90%;"></span></div>
+                </div>
+                <div class="skill-bar">
+                    <p>CSS</p>
+                    <div class="progress-bar"><span style="width: 85%;"></span></div>
+                </div>
+                <div class="skill-bar">
+                    <p>JavaScript</p>
+                    <div class="progress-bar"><span style="width: 80%;"></span></div>
+                </div>
+                <div class="skill-bar">
+                    <p>React</p>
+                    <div class="progress-bar"><span style="width: 75%;"></span></div>
+                </div>
+                <div class="skill-bar">
+                    <p>Node.js</p>
+                    <div class="progress-bar"><span style="width: 70%;"></span></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials">
+            <h2>Testemunhos</h2>
+            <div class="testimonials-container">
+                <div class="testimonial-card">
+                    <p>"Algleidson é um desenvolvedor extremamente competente e profissional. Seu trabalho excedeu nossas expectativas em todos os aspectos."</p>
+                    <h4>- Cliente Satisfeito</h4>
+                </div>
+                <div class="testimonial-card">
+                    <p>"Muito obrigado, Algleidson, por seu excelente trabalho e dedicação. Recomendo fortemente seus serviços."</p>
+                    <h4>- Outro Cliente Satisfeito</h4>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
             <h2>Contato</h2>
-            <p>Entre em contato comigo através do e-mail <a href="mailto:sasarcg123@gmail.com">sasarcg123@gmail.com</a></p>
+            <p>Entre em contato comigo através do e-mail <a href="mailto:sasarcg123@gmail.com">sasarcg123@gmail.com</a> ou siga-me nas redes sociais abaixo.</p>
+            <div class="social-links">
+                <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+                <a href="https://github.com" target="_blank">GitHub</a>
+                <a href="https://twitter.com" target="_blank">Twitter</a>
+            </div>
         </section>
 
         <footer>
